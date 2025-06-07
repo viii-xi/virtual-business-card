@@ -31,5 +31,10 @@ To make this card your own, just update the following in `index.html`:
 - Profile picture URL inside the `<img>` tag.
 - Contact info (email, phone, GitHub link) inside the respective sections.
 
+## Contact
+Created by **Akshita Kushwaha**  
+Email: k.akshita2005@gmail.com  
+GitHub: [viii-xi](https://github.com/viii-xi)
+
 This project is open-source and free to use. Feel free to reach out if you want to collaborate or have questions!
 
