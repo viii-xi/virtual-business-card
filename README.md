@@ -20,7 +20,7 @@ This is a simple **Virtual Business Card** created using HTML, CSS, and JavaScri
 ## Code Structure
 
 - `index.html` — Main HTML file with the business card layout.
-- `style.css` — (If you add styles) CSS file for styling the card.
+- `style.css` — CSS file for styling the card.
 - Inline JavaScript — Handles the toggle functionality for showing/hiding contact info.
 
 ## Customize
