@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akshita Kushwaha - Virtual Business Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="top-section">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/041/420/347/non_2x/ak-or-ka-initials-monogram-letter-text-alphabet-logo-design-vector.jpg" 
+        alt="Akshita Kushwaha Profile Picture" 
+        class="avatar"
+      />
+      <div class="header">
+        <h1>AKSHITA KUSHWAHA</h1>
+        <h3>B.Tech CSE - 1st Year Student</h3>
+      </div>
+    </div>
+
+    <button class="contact-btn" id="contactToggle">Contact Me</button>
+
+    <div class="info-container hidden" id="contactInfo">
+      <div class="info-item">
+        <p class="label">Email</p>
+        <p class="hidden-text">
+          <a href="mailto:k.akshita2005@gmail.com">k.akshita2005@gmail.com</a>
+        </p>
+      </div>
+      <div class="info-item">
+        <p class="label">Phone</p>
+        <p class="hidden-text">
+          <a href="tel:+919390062089">+91 9390062089</a>
+        </p>
+      </div>
+      <div class="info-item">
+        <p class="label">GitHub</p>
+        <p class="hidden-text">
+          <a href="https://github.com/viii-xi" target="_blank" rel="noopener noreferrer">viii-xi</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("contactToggle").addEventListener("click", () => {
+      const info = document.getElementById("contactInfo");
+      info.classList.toggle("visible");
+      info.classList.toggle("hidden");
+
+      const btn = document.getElementById("contactToggle");
+      btn.textContent = info.classList.contains("visible") ? "Hide Contact" : "Contact Me";
+    });
+  </script>
+</body>
+</html>
+
+
+
