@@ -31,6 +31,8 @@ To make this card your own, just update the following in `index.html`:
 - Profile picture URL inside the `<img>` tag.
 - Contact info (email, phone, GitHub link) inside the respective sections.
 
+🔗 Live Preview: (https://viii-xi.github.io/viii-xi/virtual-business-card/)
+
 ## Contact
 Created by **Akshita Kushwaha**  
 Email: k.akshita2005@gmail.com  
